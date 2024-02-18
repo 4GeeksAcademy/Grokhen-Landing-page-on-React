@@ -4,6 +4,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Header from "./header";
 import Card from "./card";
+import Footer from "./footer";
 
 //create your first component
 const Home = () => {
@@ -11,7 +12,8 @@ const Home = () => {
 		<div className="container d-grid gap-3">
 			<NavBar />
 			<Header />
-			<Card />		
+			<Card />	
+			<Footer />	
 		</div>
 	);
 };
